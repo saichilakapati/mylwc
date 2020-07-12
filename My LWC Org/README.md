@@ -1,3 +1,19 @@
+
+# Leverage Lightning Message Service (LMS) to communicate between VF and LWC
+
+In Winter 20, Salesforce is releasing “Lightning Message Service“ (LMS), a new feature that allows developers to communicate very easily between VF and Lightning. 
+
+LMS cuts down the time it takes today to communicate between these platforms by providing a quick channel to which consumers can subscribe and get both updates and convenient tags/import modules, so developers don’t have to worry about CometD resources and/or complicated Javascript. 
+
+# How to use this solution
+
+For the LWC and VF components, click "Subscribe" to start receiving messages. "Unsubscribe" will make the component to stop listening
+
+Then, simply type a message, click "Send Message" and voila!
+
+Lightning Message Service(LMS) Salesforce Documentation
+https://developer.salesforce.com/docs/component-library/bundle/lightning-message-service/documentation
+
 # Salesforce App
 
 This guide helps Salesforce developers who are new to Visual Studio Code go from zero to a deployed app using Salesforce Extensions for VS Code and Salesforce CLI.
